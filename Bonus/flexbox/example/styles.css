@@ -1,0 +1,38 @@
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+    /* align-content: center; */
+}
+
+.box {
+    width: 200px;
+    height: 60px;
+    background: #f00;
+    margin: 5px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* flex: 1 0; */
+}
+
+.red {
+    order: 1;
+}
+
+.green {
+    background: #0f0;
+    order: 3;
+}
+
+.blue {
+    background: #00f;
+    order: 0;
+}
