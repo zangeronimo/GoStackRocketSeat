@@ -1,1 +1,5 @@
 node_modules
+ormconfig.json
+GoStack/NodeJS/primeiro-projeto-node/src/config/auth.ts
+GoStack/NodeJS/primeiro-projeto-node/tmp/*
+!GoStack/NodeJS/primeiro-projeto-node/tmp/.gitkeep
