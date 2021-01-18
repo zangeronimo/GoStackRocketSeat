@@ -1,5 +1,6 @@
 import CreateUserService from '@modules/users/services/CreateUserService';
 import UpdateUserAvatarService from '@modules/users/services/UpdateUserAvatarService';
+import { classToClass } from 'class-transformer';
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
 
@@ -10,9 +11,8 @@ export default class UsersController {
     const createUser = container.resolve(CreateUserService);
 
     const user = await createUser.execute({ name, email, password });
-    user.password = '';
 
-    return response.status(201).json({ user });
+    return response.status(201).json(classToClass(user));
   }
 
   public async update(request: Request, response: Response): Promise<Response> {

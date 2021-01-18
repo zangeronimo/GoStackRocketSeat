@@ -15,10 +15,13 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.6.0",
     "@typescript-eslint/parser": "^4.6.0",
+    "aws-sdk": "^2.828.0",
     "bcryptjs": "^2.4.3",
     "celebrate": "^13.0.4",
+    "class-transformer": "^0.3.1",
     "cors": "^2.8.5",
     "date-fns": "^2.16.1",
+    "dotenv": "^8.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.21.2",
     "express": "^4.17.1",
