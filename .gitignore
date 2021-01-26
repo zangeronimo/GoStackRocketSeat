@@ -5,3 +5,4 @@ GoStack/NodeJS/primeiro-projeto-node/src/config/auth.ts
 GoStack/NodeJS/primeiro-projeto-node/tmp/*
 !GoStack/NodeJS/primeiro-projeto-node/tmp/.gitkeep
 GoStack/NodeJS/primeiro-projeto-node/.env
+GoStack/ReactJS/gobarber-web/.env
